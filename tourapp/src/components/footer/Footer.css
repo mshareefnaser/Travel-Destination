@@ -1,0 +1,12 @@
+.dark-theme {
+    background-color: RGB(33, 37, 41);
+    color: #fff;
+  }
+  
+  .footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: inline-block;
+  }
+  
