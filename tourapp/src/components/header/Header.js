@@ -1,7 +1,10 @@
+import Navbar_  from "../Navbar/Navbar";
 function Header ()
 {
     return (
-        <h1> Travel Destination </h1>
+        <>
+        <Navbar_/>
+        </>
     )
 }
 export default Header;

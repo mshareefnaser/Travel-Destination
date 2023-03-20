@@ -1,19 +1,14 @@
-function Tour(props){
-    return(
-        <>
-            <h2>Tours</h2>
-            {props.arrData.map((item)=>{
-                return (
-                    <div key={item.ID}>
-                        <h3>{item.name}</h3>
-                        <img src={item.image} alt={item.name} ></img>
-                        <hr></hr>
-                    </div>
-                    
-                )
-            })}
-        </>
-    )
+// tours.js
+import Tour from './tour/Tour';
+
+function Tours(props) {
+  return (
+    <div>
+      {props.arrData.map((tour) => (
+        <Tour id={tour.id} tour={tour} />
+      ))}
+    </div>
+  );
 }
 
-export default Tour;
+export default Tours;
